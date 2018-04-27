@@ -1,0 +1,3 @@
+== Hello Brigade Example
+
+Example for playing with Brigade
