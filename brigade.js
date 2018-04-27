@@ -6,7 +6,7 @@ events.on("push", function(e, project) {
     var build = new Job("build", "docker:18.03.1-ce");
     build.docker.enabled = true;
     build.tasks = [
-        "docker build -t unguiculus/hello-brigade:1"
+        "docker build -t unguiculus/hello-brigade:1 ."
     ];
     build.run();
 });
